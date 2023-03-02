@@ -15,8 +15,8 @@ body:
       label: PHP version
       description: Your PHP version
       placeholder: #.#.#
-    validations:
-      required: true
+#    validations:
+#      required: true
 
   - type: input
     id: package-version
@@ -24,8 +24,8 @@ body:
       label: `irazasyed/telegram-bot-sdk` version
       placeholder: #.#.#
       description: Output from `composer show irazasyed/telegram-bot-sdk | grep versions`
-    validations:
-      required: true
+#    validations:
+#      required: true
 
   - type: input
     id: laravel-version
@@ -41,8 +41,8 @@ body:
     attributes:
       label: Code To Reproduce the bug
       description: Valid PHP code to reproduce the bug
-    validations:
-      required: true
+#    validations:
+#      required: true
 
   - type: textarea
     id: stacktrace
