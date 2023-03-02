@@ -19,15 +19,6 @@ body:
       required: true
 
   - type: input
-    id: package-version
-    attributes:
-      label: "irazasyed/telegram-bot-sdk" package version
-      placeholder: #.#.#
-      description: Output from `composer show irazasyed/telegram-bot-sdk | grep versions`
-    validations:
-      required: true
-
-  - type: input
     id: laravel-version
     attributes:
       label: Laravel version (if any)
